@@ -1,0 +1,757 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* Valor de especificidad: 0 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Valor de especificidad: 1 */
+body {
+  background: linear-gradient(to bottom, #636b61, #83b8e4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 1em;
+}
+
+/* Valor de especificidad: 1 */
+section {
+  background-image: url("../images/marca-agua.png");
+  background-size: 50em;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Valor de especificidad: 1 */
+h1 {
+  text-align: center;
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 3em;
+  text-shadow: rgb(212, 175, 55) 0em 0em 0.5em;
+}
+
+/* Valor de especificidad: 1 */
+h2 {
+  font-size: 2em;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: #ffffff 0em 0em 0.5em;
+}
+
+/* Valor de especificidad: 1 */
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 2 */
+h3::first-line {
+  margin-right: 5em;
+  color: hsla(0, 0%, 0%, 1);
+  box-shadow: 3px 3px 55px hsla(72, 9%, 79%, 0.8);
+  background-color: hsla(40, 5%, 54%, 1);
+}
+
+/* Valor de especificidad: 1 */
+h3:hover {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+/* Valor de especificidad: 1 */
+p {
+  text-indent: 3em;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.3em;
+}
+
+/* Valor de especificidad: 1 */
+strong,
+em {
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+/* Valor de especificidad: 1 */
+a:link {
+  color: hsla(208, 100%, 10%, 0.5);
+}
+
+/* Valor de especificidad: 1 */
+a:hover {
+  color: #FF851B;
+}
+
+/* Valor de especificidad: 1 */
+a:active {
+  color: rgb(255, 65, 54);
+}
+
+/* Valor de especificidad: 1 */
+a:visited {
+  color: white;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-conceptos-poo {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/ejemplo-clase-objeto.jpg"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/atributos-metodos.png"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-abstraccion {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/abstraccion.png"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-encapsulacion {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/encapsulamiento-ocultacion.jpg"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-herencia {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/herencia.png"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/herencia2.png"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-polimorfismo {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/polimorfismo.jpg"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-fases-adoo {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/adoo.jpg"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/aoo.png"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-datos-loc-glob {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/datos-locales-y-globales.jpg"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-modelado-mundo-real {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/modelado-del-mundo-real.jpg"] {
+  border: 0.4em solid black;
+}
+
+/* Valor de especificidad: 1 */
+.contenido-img-diagrama-clases {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Valor de especificidad: 1 */
+img[src="./images/uml.png"] {
+  border: 0.4em solid black;
+}
+/* Valor de especificidad: 0, 1, 0
+#seccion-indice {
+  text-align: center;
+  border: 2px solid;
+  width: 100%;
+  border-color: #72788d;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Valor de especificidad: 0, 1, 0
+#indice {
+  text-align: start !important;
+  margin-left: 4em;
+}
+
+Valor de especificidad: 0, 1, 0
+.contenedor-indice {
+  border: 3px solid;
+  width: 33%;
+  text-align: left;
+  align-items: center;
+  padding: 10px;
+  margin-left: 5%;
+}
+
+Valor de especificidad: 0, 1, 0
+#contenido-indice {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style-type: upper-roman;
+  margin-left: 20px;
+}
+
+Valor de especificidad: 0, 1, 0
+.sub-indice {
+  padding-left: 25px;
+  list-style-type: lower-roman;
+} */
+
+/* Valor de especificidad: 0 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Valor de especificidad: 0 */
+li {
+  margin-bottom: 10px;
+}
+
+/* Valor de especificidad: 0 */
+ul ul {
+  margin-top: 5px;
+}
+
+/* Valor de especificidad: 0 */
+a {
+  color: white;
+}
+
+/* Valor de especificidad: 0 */
+ol li {
+  list-style-type: none;
+  counter-increment: item;
+}
+
+/* Valor de especificidad: 0 */
+ol li:before {
+  content: counter(item);
+  margin-right: 5px;
+  margin-left: 55px;
+  font-size: 0.8em;
+  background-color: crimson;
+  color: ghostwhite;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+/* Valor de especificidad: 0, 1, 0 */
+.seccion-que-es-poo {
+  border: 3px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Valor de especificidad: 0, 1, 0 */
+.contenido-que-es-poo {
+  columns: 3;
+}
+
+/* Valor de especificidad: 0, 1, 0 */
+.seccion-conceptos-poo {
+  border: 3px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.volver-indice {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-objetos {
+  columns: 2;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-clases {
+  columns: 2;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-metodos {
+  columns: 2;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.lista-objetos {
+  border: 3px solid;
+  border-radius: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 100%;
+  columns: 4;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out,
+    margin-left 0.3s ease-in-out, text-align 0.3s ease-in-out;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.lista-objetos:hover {
+  transform: scale(1.05);
+  width: 70%;
+  margin-left: 15em;
+  text-align: center;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.lista-objetos:after {
+  transform: scale(-1.05);
+  width: 70%;
+  margin-left: 15em;
+  text-align: center;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.tipos-objetos {
+  text-align: left;
+  margin-left: 5em;
+  list-style-type: circle;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+/* Valor de especificidad: 0, 1, 0 */
+.tipo-rrhh li::marker {
+  content: "\1F9D1";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.tipo-rrhh {
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 1, 0 */
+.tipo-coleccion li::marker {
+  content: "\1F4DA";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.tipo-coleccion {
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 1, 0 */
+.tipo-definido-por-usuario li::marker {
+  content: "\1F464";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.tipo-definido-por-usuario {
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 1, 0 */
+.tipo-elemento-computadora li::marker {
+  content: "\1F4BB";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.tipo-elemento-computadora {
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.list-obj-fisico {
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+#coche::marker {
+  content: "\1F697";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+#avion::marker {
+  content: "\2708";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+#barco::marker {
+  content: "\1F6A2";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+#tren::marker {
+  content: "\1F686";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+#moto::marker {
+  content: "\1F3CD";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+#casa::marker {
+  content: "\1F3E0";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.lista-componente-videojuego li::marker {
+  content: "\1F579";
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.lista-componente-videojuego {
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.listado-clase {
+  list-style-type: circle;
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.listado-clase :hover {
+  list-style-type: disc;
+  margin-left: 2em;
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 1ms;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.seccion-prop-fundamentalesoo {
+  border: 3px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-prop-fundamentalesoo {
+  columns: 2;
+  column-gap: 40%;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.listado-prop-fundoo {
+  list-style-type: circle;
+  margin-left: 2em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.listado-prop-fundoo :hover {
+  list-style-type: disc;
+  margin-left: 2em;
+  font-size: 20px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 1ms;
+}
+
+/* Valor de especificidad: 0, 0, 0 */
+#abstraccion {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-abstraccion {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 0 */
+#encapsulacion-ocultacion {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-encapsulacion {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 0 */
+#herencia {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-herencia {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 0 */
+#reusabilidad {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-reusabilidad {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 0 */
+#polimorfismo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-polimorfismo {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.seccion-fases-adoo {
+  border: 3px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-fases-adoo {
+  columns: 3;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 0 */
+#adoo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-adoo {
+  columns: 3;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.seccion-datos-loc-glob {
+  border: 3px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-datos-loc-glob {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.seccion-modelado-mundo-real {
+  border: 3px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-modelado-mundo-real {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.seccion-diagrama-clases {
+  border: 3px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.contenido-diagrama-clases {
+  columns: 2;
+  column-gap: 3em;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.autor-lugar {
+  text-align: center;
+  text-shadow: hsla(24, 32%, 66%, 1) 1px 0 0px;
+  color: black;
+}
+
+/* Valor de especificidad: 0, 0, 1 */
+.autor-lugar a {
+  color: black;
+}
+
+h1 {
+  animation: glitch 3s steps(100) infinite;
+  color: #151515;
+  font-size: 3em;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 6em;
+  }
+}
+
+@keyframes glitch { 
+  0% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  1% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  2% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  3% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  4% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  5% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  6% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  7% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  8% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  9% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  10% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  11% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+  12% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+  13% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+  14% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  15% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  16% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  17% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  18% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  19% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  20% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  21% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  22% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  23% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  24% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  25% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  26% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0.5px);}
+  27% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0.5px);}
+  28% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  29% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  30% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  31% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  32% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  33% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  34% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  35% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0.5px);}
+  36% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0.5px);}
+  37% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0.5px);}
+  38% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  39% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  40% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  41% { text-shadow: 45px 0 0 #0c33f5, -45px 0 0 lime; filter: blur(0);}
+  42% { text-shadow: 0 0 0 #0c33f5, 0 0 0 lime; filter: blur(0);}
+  43% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  44% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  45% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  46% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+  47% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0.5px);}
+  48% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  49% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  50% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  51% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  52% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  53% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  54% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  55% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0.5px);}
+  56% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+  57% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+  58% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  59% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  60% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  61% { text-shadow: 30px 0 0 red, -30px 0 0 lime; filter: blur(0);}
+  62% { text-shadow: 0 0 0 red, 0 0 0 lime; filter: blur(0);}
+  63% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+  64% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+  65% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+  66% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0.5px);}
+  67% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+  68% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  69% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  70% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  71% { text-shadow: 50px 0 0 red, -50px 0 0 #0c33f5; filter: blur(0);}
+  72% { text-shadow: 0 0 0 red, 0 0 0 #0c33f5; filter: blur(0);}
+  73% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  74% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  75% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  76% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  77% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  78% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  79% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  80% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  81% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  82% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  83% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+  84% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+  85% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0.5px);}
+  86% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0.5px);}
+  87% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0.5px);}
+  88% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  89% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  90% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  91% { text-shadow: 60px 0 0 lime, -60px 0 0 #0c33f5; filter: blur(0);}
+  92% { text-shadow: 0 0 0 lime, 0 0 0 #0c33f5; filter: blur(0);}
+  92% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  93% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  94% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  95% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  96% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  97% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  98% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);} }

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fases de un desarrollo orientado a objetos</title>
+    <link href="../styles/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <section class="seccion-fases-adoo">
+        <h2 id="fases-adoo">Fases de un desarrollo orientado a objetos</h2>
+        <div class="contenido-img-fases-adoo">
+          <img
+            src="../images/adoo.jpg"
+            alt="Análisis y Diseño Orientado a Objetos"
+            width="500"
+            height="250"
+          />
+          <img
+            src="../images/aoo.png"
+            alt="Análisis Orientado a Objetos"
+            width="500"
+            height="250"
+          />
+        </div>
+        <div class="contenido-fases-adoo">
+          <p>
+            El marco de desarrollo de una aplicaci&oacute;n software estar&iacute;a formado
+            por las tres fases tradicionales: an&aacute;lisis, diseño e implementaci&oacute;n.
+            <br />
+            El <strong>an&aacute;lisis</strong> es la fase cuyo objetivo es estudiar y
+            comprender el dominio del problema, es decir, el an&aacute;lisis se centra
+            en responder al interrogante <strong>¿QU&Eacute; HACER?</strong>
+            <br />
+            El <strong>diseño</strong>, por su parte, dirige sus esfuerzos en
+            desarrollar la soluci&oacute;n a los requisitos planteados en el an&aacute;lisis,
+            esto es, el diseño se haya centrado en el espacio de la soluci&oacute;n,
+            intentando dar respuesta a la cuesti&oacute;n
+            <strong>¿C&Oacute;MO HACERLO?</strong>
+            <br />
+            Por &uacute;ltimo, la fase de implementaci&oacute;n ser&iacute;a la encarga de la
+            traducci&oacute;n del diseño de la aplicaci&oacute;n al lenguaje de programaci&oacute;n
+            elegido, adaptando por tanto la soluci&oacute;n a un entorno concreto.
+            <br />
+            Que este marco de desarrollo sea v&aacute;lido tanto para los desarrollos
+            tradicionales (desarrollos estructurados) como para los desarrollos
+            orientados a objeto, no significa que la realizaci&oacute;n de las
+            actividades propias de cada fase se lleve a cabo de la misma manera.
+            De hecho, en los desarrollos estructurados hay mucha distancia entre
+            las fases de an&aacute;lisis de diseño, e incluso entre los diferentes
+            modelos generados en una misma fase. Esta separaci&oacute;n se conoce con
+            el nombre de gap sem&aacute;ntico, y es la barrera que la orientaci&oacute;n a
+            objeto intenta eliminar difuminando la frontera entre las diferentes
+            fases.
+            <br />
+            Los m&eacute;todos orientados a objeto acortan la distancia existente entre
+            el espacio de conceptos (lo que los expertos o usuarios conocen) y
+            el espacio de diseño (lo que conocen los desarrolladores) e
+            implementaci&oacute;n, ya que los objetos del mundo real tienen una
+            correspondencia bastante clara con los objetos del sistema
+            inform&aacute;tico, evitando as&iacute; los grandes abismos existentes entre el
+            an&aacute;lisis y el diseño en el enfoque estructurado, esto es la falta de
+            continuidad en la representaci&oacute;n de los conceptos en una y otra
+            fase.
+            <br />
+            Por su parte, en los desarrollos orientados al objeto se tiene una
+            mayor continuidad entre las diferentes fases, con unas fronteras
+            entre fases muy poco marcadas que dan lugar a desarrollos m&aacute;s
+            iterativos e incrementales. Todo esto es posible gracias a una
+            caracter&iacute;stica de vital importancia, el modelo subyacente a todas
+            las fases es el mismo, el modelo objeto, que tiene como elemento
+            central al objeto, que es la entidad que encapsula elementos
+            estructurales y de comportamiento. De esta forma, los objetos
+            sem&aacute;nticos identificados en la fase de an&aacute;lisis se refinar&aacute;n durante
+            la fase de diseño e implementaci&oacute;n, a la vez que se añaden objetos
+            de interfaz y de utilidad para constituir la aplicaci&oacute;n final.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <br />
+        <h3 id="adoo">
+          An&aacute;lisis y Diseño Orientado a Objetos
+          <abbr title="Análisis y Diseño Orientado a Objetos">(ADOO)</abbr>
+        </h3>
+        <div class="contenido-adoo">
+          <p>
+            Como se ha comentado, la transici&oacute;n entre las fases de an&aacute;lisis y
+            diseño en la orientaci&oacute;n al objeto es mucho m&aacute;s suave que en las
+            metodolog&iacute;as estructuradas, no habiendo tanta diferencia entre las
+            etapas. Esto implica que es dif&iacute;cil determinar donde acaba el
+            An&aacute;lisis Orientado a Objeto
+            <abbr title="Análisis Orientado a Objetos">(AOO)</abbr> y donde
+            comienza el Diseño Orientado a Objeto
+            <abbr title="Diseño Orientado a Objetos">(DOO)</abbr>, siendo la
+            frontera entre ambas fases totalmente inconsistente, de forma que lo
+            que algunos autores incluyen en el AOO otros lo hacen en el DOO.
+            Esto conduce a que sea frecuente el uso de las siglas ADOO para
+            hacer referencia a ambas fases de forma conjunta.
+          </p>
+          <p>
+            <em>
+              El objetivo del AOO es modelar la sem&aacute;ntica del problema en
+              t&eacute;rminos de objetos distintos pero relacionados. Por su parte, el
+              DOO conlleva reexaminar las clases del dominio del problema,
+              refin&aacute;ndolas, extendi&eacute;ndolas y reorganiz&aacute;ndolas, para mejorar su
+              reutilizaci&oacute;n y tomar ventaja de la herencia. El an&aacute;lisis casa con
+              el dominio del problema y el diseño con el dominio de la soluci&oacute;n;
+              por lo tanto el AOO enfoca el problema en los objetos del dominio
+              del problema y el DOO en los objetos del dominio de la soluci&oacute;n.
+            </em>
+          </p>
+          <strong>
+            Los objetos del dominio del problema representan cosas o conceptos
+            utilizados para describir el problema, recibiendo el nombre de
+            objetos sem&aacute;nticos porque ellos representan las abstracciones que
+            encierran el significado del dominio del problema.
+          </strong>
+          <p>
+            El an&aacute;lisis se centra en la representaci&oacute;n del problema, es decir,
+            en la identificaci&oacute;n de las abstracciones que representen el
+            significado de las especificaciones y de los requisitos del sistema.
+          </p>
+          <p>
+            El &eacute;nfasis del diseño se centra en la definici&oacute;n de la soluci&oacute;n. Los
+            objetos sem&aacute;nticos ser&aacute;n refinados durante la fase de an&aacute;lisis y de
+            diseño, siendo completados con los objetos propios del dominio de la
+            soluci&oacute;n.
+          </p>
+          <p>
+            Los objetos del dominio de la soluci&oacute;n incluyen: objetos de
+            interfaz, objetos de aplicaci&oacute;n y objetos base o de utilidad. &eacute;stos
+            no forman parte directamente de los objetos del dominio problema,
+            pero representan la vista del usuario de los objetos sem&aacute;nticos.
+          </p>
+          <p>
+            Una vez realizada esta introducci&oacute;n al AOO y al DOO se puede
+            proceder a dar una definici&oacute;n m&aacute;s concreta de ambos procesos. Se
+            puede definir
+            <dfn>AOO</dfn> como el proceso que modela el dominio del problema
+            identificando y especificando un conjunto de objetos sem&aacute;nticos que
+            interaccionan y se comportan de acuerdo a los requisitos del
+            sistema. Se puede definir <dfn>DOO</dfn> como el proceso que modela
+            el dominio de la soluci&oacute;n, lo que incluye a las clases sem&aacute;nticas
+            con posibles añadidos, y las clases de interfaz, aplicaci&oacute;n y
+            utilidad identificadas durante el diseño.
+          </p>
+          <p>
+            No debiera darse por terminado este apartado sin enunciar cuales son
+            las actividades propias del AOO y del DOO. Este es un asunto
+            comprometido por la diversidad existente en el mundo de las
+            metodolog&iacute;as orientadas a objeto, pero de forma general podr&iacute;a
+            afirmarse que: En el AOO deben llevarse a cabo las siguientes
+            actividades:
+          </p>
+          <ul>
+            <li>
+              La identificaci&oacute;n de clases sem&aacute;nticas, atributos y servicios
+            </li>
+            <li>
+              Identificaci&oacute;n de las relaciones entre clases (generalizaciones,
+              agregaciones y asociaciones).
+            </li>
+            <li>El emplazamiento de las clases, atributos y servicios.</li>
+            <li>
+              La especificaci&oacute;n del comportamiento din&aacute;mico mediante paso de
+              mensajes.
+            </li>
+          </ul>
+          <p>En el DOO deben llevarse a cabo las siguientes actividades:</p>
+          <ul>
+            <li>Añadir las clases interfaz, base y utilidad.</li>
+            <li>Refinar las clases sem&aacute;nticas.</li>
+          </ul>
+          <p>
+            Como resumen final, se podr&iacute;a afirmar que el AOO y el DOO no deben
+            verse como fases muy separadas, siendo recomendable llevarlas a cabo
+            concurrentemente, as&iacute; el modelo de an&aacute;lisis no puede completarse en
+            ausencia de un modelo de diseño, ni viceversa. Uno de los aspectos
+            m&aacute;s importantes del ADOO es la sinergia entre los dos conceptos.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+      </section>
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades fundamentales de la orientaci&oacute;n a objetos</title>
+    <link href="../styles/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <section class="seccion-prop-fundamentalesoo">
+        <h2 id="prop-fundamentalesoo">
+          Propiedades fundamentales de la orientaci&oacute;n a objetos
+        </h2>
+        <div class="contenido-prop-fundamentalesoo">
+          <p>
+            Las siguientes propiedades en su conjunto definen claramente a los
+            lenguajes orientados a objetos, sin embargo, no son exclusivas de
+            este paradigma, ya que pueden existir en otros.
+            <strong> Estas son:</strong>
+          </p>
+          <ul class="listado-prop-fundoo">
+            <li>Abstracci&oacute;n (tipos abstractos de datos y clases)</li>
+            <li>Encapsulado de datos</li>
+            <li>Ocultaci&oacute;n de datos</li>
+            <li>Herencia</li>
+            <li>Polimorfismo</li>
+          </ul>
+        </div>
+        <h3 id="abstraccion">Abstracci&oacute;n</h3>
+        <div class="contenido-img-abstraccion">
+          <img
+            src="../images/abstraccion.png"
+            alt="Abstracción"
+            width="750"
+            height="375"
+          />
+        </div>
+        <div class="contenido-abstraccion">
+          <p>
+            <em
+              >Es la propiedad de los objetos que consiste en tener en cuenta
+              s&oacute;lo los aspectos m&aacute;s importantes desde un punto de vista
+              determinado y no tener en cuenta los restantes aspectos</em
+            >. Este t&eacute;rmino, que se suele utilizar en programaci&oacute;n, se refiere
+            al hecho de diferenciar entre las propiedades externas de una
+            entidad y los detalles de la composici&oacute;n interna de la misma.
+          </p>
+          Mediante esta propiedad se diseñan y fabrican sistemas complejos
+          (computadoras, autom&oacute;viles, lavadoras, horno microondas, etc.) en
+          primer lugar y, posteriormente, los componentes m&aacute;s pequeños de los
+          cuales est&aacute;n compuestos. Cada componente representa un nivel de
+          abstracci&oacute;n en el cual el uso del componente se a&iacute;sla de los detalles
+          de la composici&oacute;n interna del componente. La abstracci&oacute;n posee
+          diversos grados denominados niveles de abstracci&oacute;n.
+          <p>
+            Estos niveles de abstracci&oacute;n ayudan a estructurar la complejidad
+            intr&iacute;nseca que poseen los sistemas del mundo real. En el modelado
+            orientado a objetos de un sistema esto significa centrarse en qu&eacute; es
+            y qu&eacute; hace un objeto y no en c&oacute;mo debe implementarse. Durante el
+            proceso de abstracci&oacute;n es cuando se decide qu&eacute; caracter&iacute;sticas y
+            comportamiento debe tener el modelo.
+          </p>
+          <p>
+            Aplicando la abstracci&oacute;n se es capaz de construir, analizar y
+            gestionar sistemas de computadoras complejos y grandes que no se
+            podr&iacute;an diseñar si se tratara de modelar a un nivel detallado. En
+            cada nivel de abstracci&oacute;n se visualiza el sistema en t&eacute;rminos de
+            componentes, denominados herramientas abstractas, cuya composici&oacute;n
+            interna se ignora. Esto nos permite concentrarnos en c&oacute;mo cada
+            componente interact&uacute;a con otros componentes y centrarnos en la parte
+            del sistema que es m&aacute;s relevante para la tarea a realizar en lugar
+            de perderse a nivel de detalles menos significativos.
+          </p>
+          <p>
+            En estructuras o registros, las propiedades individuales de los
+            objetos se pueden almacenar en los miembros. Para los objetos, no
+            s&oacute;lo es de inter&eacute;s c&oacute;mo est&aacute;n organizados, sino tambi&eacute;n qu&eacute; se puede
+            hacer con ellos; es decir, las operaciones que forman la interfaz de
+            un objeto son tambi&eacute;n importantes. El primer concepto en el mundo de
+            la orientaci&oacute;n a objetos naci&oacute; con los tipos abstractos de datos
+            (TAD). Un tipo abstracto de datos describe no s&oacute;lo los atributos de
+            un objeto, sino tambi&eacute;n su comportamiento (las operaciones). Esto
+            puede incluir tambi&eacute;n una descripci&oacute;n de los estados que puede
+            alcanzar un objeto.
+          </p>
+          <p>
+            Un medio de reducir la complejidad es la abstracci&oacute;n. Las
+            caracter&iacute;sticas y los procesos se reducen a las propiedades
+            esenciales, son resumidas o combinadas entre s&iacute;. De este modo, las
+            caracter&iacute;sticas complejas se hacen m&aacute;s manejables.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <h3 id="encapsulacion-ocultacion">
+          Encapsulaci&oacute;n y ocultaci&oacute;n de datos
+        </h3>
+        <div class="contenido-img-encapsulacion">
+          <img
+            src="../images/encapsulamiento-ocultacion.jpg"
+            alt="Encapsulación y ocultación de datos"
+            width="500"
+            height="250"
+          />
+        </div>
+        <div class="contenido-encapsulacion">
+          <p>
+            <em
+              >El encapsulado o encapsulaci&oacute;n de datos es el proceso de agrupar
+              datos y operaciones relacionadas bajo la misma unidad de
+              programaci&oacute;n</em
+            >. En el caso de los objetos que poseen las mismas caracter&iacute;sticas y
+            comportamiento se agrupan en clases, que son m&aacute;s que unidades o
+            m&oacute;dulos de programaci&oacute;n que encapsulan datos y operaciones.
+          </p>
+          <p>
+            <em
+              >La ocultaci&oacute;n de datos permite separar el aspecto de un
+              componente, definido por su interfaz con el exterior, de sus
+              detalles internos de implementaci&oacute;n</em
+            >. Los t&eacute;rminos ocultaci&oacute;n de la informaci&oacute;n (information hiding) y
+            encapsulaci&oacute;n de datos (data encapsulation) se suelen utilizar como
+            sin&oacute;nimos, pero no siempre es as&iacute;, muy al contrario, son t&eacute;rminos
+            similares pero distintos. Normalmente, los datos internos est&aacute;n
+            protegidos del exterior y no se puede acceder a ellos m&aacute;s que desde
+            su propio interior y, por tanto, no est&aacute;n ocultos. El acceso al
+            objeto est&aacute; restringido s&oacute;lo a trav&eacute;s de una interfaz bien definida.
+          </p>
+          <p>
+            El diseño de un programa orienta a objetos contiene, al menos, los
+            siguientes pasos:
+          </p>
+          <ol>
+            <li>Identificar los objetos del sistema.</li>
+            <li>
+              Agrupar en clases a todos los objetos que tengan caracter&iacute;sticas y
+              comportamiento comunes.
+            </li>
+            <li>
+              Identificar los datos y operaciones de cada una de las clases.
+            </li>
+            <li>
+              Identificar las relaciones que pueden existir entre las clases.
+            </li>
+          </ol>
+
+          <p>
+            Un objeto es un elemento individual con su propia identidad (un
+            libro, un autom&oacute;vil, etc.). Una clase puede describir las
+            propiedades gen&eacute;ricas de un ejecutivo de una empresa (nombre,
+            t&iacute;tulo, salario, cargo, etc.) mientras que un objeto representar&aacute; a
+            un ejecutivo espec&iacute;fico (Luis Mackoy, director general, etc.). En
+            general, una clase define qu&eacute; datos se utilizan para representar un
+            objeto y las operaciones que se pueden ejecutar sobre esos datos.
+          </p>
+          <p>
+            Una clase describe un objeto. En el sentido estricto de
+            programaci&oacute;n, una clase es un tipo de datos. Diferentes variables se
+            pueden crear de este tipo. En programaci&oacute;n orientada a objetos,
+            &eacute;stas se llaman instancias. Las instancias son, por consiguiente, la
+            realizaci&oacute;n de los objetos descritos en una clase. Estas instancias
+            constan de datos o atributos descritos en la clase y se pueden
+            manipular con las operaciones definidas dentro de ellas.
+          </p>
+          <p>
+            <i
+              >Los t&eacute;rminos objeto e instancia se utilizan frecuentemente como
+              sin&oacute;nimos. Las operaciones definidas en los objetos se llaman
+              m&eacute;todos. Cada operaci&oacute;n llamada por un objeto se interpreta como
+              un mensaje al objeto, que utiliza un m&eacute;todo espec&iacute;fico para
+              procesar la operaci&oacute;n</i
+            >. En el diseño de programas orientados a objetos se realiza en
+            primer lugar el diseño de las clases que representan con precisi&oacute;n
+            aquellas cosas que trata el programa. Las definiciones de clases
+            incluyen una descripci&oacute;n de operaciones permisibles para cada clase,
+            tales como desplazamiento de un c&iacute;rculo o rotaci&oacute;n de una l&iacute;nea. A
+            continuaci&oacute;n, se prosigue el diseño de un programa utilizando
+            objetos de las clases.
+          </p>
+          <p>
+            El diseño de clases fiables y &uacute;tiles puede ser una tarea dif&iacute;cil.
+            Afortunadamente, los leguajes de POO facilitan la tarea ya que
+            incorporan clases existentes en su propia programaci&oacute;n. Los
+            fabricantes de software proporcionan numerosas bibliotecas de
+            clases, incluyendo bibliotecas de clases diseñadas para simplificar
+            la creaci&oacute;n de programar para entornos tales como Windows, Linux,
+            Macintosh o Unix.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <h3 id="herencia">Generalizaci&oacute;n y especializaci&oacute;n: herencia</h3>
+        <div class="contenido-img-herencia">
+          <img
+            src="../images/herencia.png"
+            alt="Herencia"
+            width="500"
+            height="250"
+          />
+          <img
+            src="../images/herencia2.png"
+            alt="Herencia"
+            width="500"
+            height="250"
+          />
+        </div>
+        <div class="contenido-herencia">
+          <p>
+            La generalizaci&oacute;n es la
+            <em
+              >propiedad que permite compartir informaci&oacute;n entre dos entidades
+              evitando la redundancia</em
+            >. En el comportamiento de objetos existen con frecuencia
+            propiedades que son comunes en diferentes objetos y esta propiedad
+            se denomina generalizaci&oacute;n.
+          </p>
+          <p>
+            Por ejemplo, m&aacute;quinas lavadoras, frigor&iacute;ficos, hornos de microondas,
+            tostadoras, lavavajillas, etc., son todos electrodom&eacute;sticos
+            (aparatos del hogar). En el mundo de la orientaci&oacute;n a objetos, cada
+            uno de estos aparatos es una subclase de la clase Electrodom&eacute;stico y
+            a su vez Electrodom&eacute;stico es una superclase de todas las otras
+            clases (m&aacute;quinas lavadoras, frigor&iacute;ficos, hornos de microondas,
+            tostadoras, lavavajillas...).
+          </p>
+          <p>
+            <em
+              >El proceso inverso de la generalizaci&oacute;n por el cual se definen
+              nuevas clases a partir de otras ya existentes se denomina
+              especializaci&oacute;n</em
+            >.
+          </p>
+          <p>
+            En orientaci&oacute;n a objetos, el mecanismo que implementa la propiedad
+            de generalizaci&oacute;n se denomina herencia. La herencia permite definir
+            nuevas clases a partir de otras clases ya existentes, de modo que
+            presentan las mismas caracter&iacute;sticas y comportamiento de &eacute;stas, as&iacute;
+            como otras adicionales.
+          </p>
+          <p>
+            La idea de clases conduce a la idea de herencia. Clases diferentes
+            se pueden conectar unas con otras de modo jer&aacute;rquico. Como ya se ha
+            comentado anteriormente con las relaciones de generalizaci&oacute;n y
+            especializaci&oacute;n, en nuestras vidas diarias se utiliza el concepto de
+            clases divididas en subclases.
+          </p>
+          <p>
+            El principio de la divisi&oacute;n o clasificaci&oacute;n es que cada subclase
+            comparte caracter&iacute;sticas comunes con la clase de la que procede o se
+            deriva. Los carros, motos, camiones y buses tienen ruedas, motores y
+            carrocer&iacute;as; son las caracter&iacute;sticas que definen a un veh&iacute;culo.
+            Adem&aacute;s de las caracter&iacute;sticas comunes con los otros miembros de la
+            clase, cada subclase tiene sus propias caracter&iacute;sticas. Por ejemplo,
+            los camiones tienen una cabina independiente de la caja que
+            transporta la carga; los buses tienen un gran n&uacute;mero de asientos
+            independientes para los viajeros que ha de transportar, etc.
+          </p>
+          <p>
+            De modo similar una clase se puede convertir en padre o ra&iacute;z de
+            otras subclases. La clase original se denomina clase base y las
+            clases que se derivan de ella se denominan clases derivadas y
+            siempre son una especializaci&oacute;n o concreci&oacute;n de su clase base. A la
+            inversa, la clase base es la generalizaci&oacute;n de la clase derivada.
+            Esto significa que todas las propiedades (atributos y operaciones)
+            de la clase base se heredan por la clase derivada, normalmente
+            suplementada con propiedades adicionales.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <h3 id="reusabilidad">Reusabilidad</h3>
+        <div class="contenido-reusabilidad">
+          <p>
+            <em
+              >Una vez que una clase ha sido escrita, creada y depurada, se
+              puede distribuir a otros programadores para utilizar en sus
+              propios programas. Esta propiedad se llama reusabilidad o
+              reutilizaci&oacute;n</em
+            >.
+            <br />
+            El concepto de herencia proporciona una extensi&oacute;n o ampliaci&oacute;n al
+            concepto de reusabilidad. Un programador puede considerar una clase
+            existente y sin modificarla, añadir competencias y propiedades
+            adicionales a ella. Esto se consigue derivando una nueva clase de
+            una ya existente. La nueva clase heredar&aacute; las caracter&iacute;sticas de la
+            clase antigua, pero es libre de añadir nuevas caracter&iacute;sticas
+            propias.
+            <br />
+            <b>
+              <i>
+                La facilidad de reutilizar o reusar el software existente es uno
+                de los grandes beneficios de la POO: muchas empresas consiguen
+                con la reutilizaci&oacute;n de clase en nuevos proyectos la reducci&oacute;n
+                de los costes de inversi&oacute;n en sus presupuestos de programaci&oacute;n.
+                ¿En esencia cu&aacute;les son las ventajas de la herencia? Primero, se
+                utiliza para consistencia y reducir c&oacute;digo. Las propiedades
+                comunes de varias clases s&oacute;lo necesitan ser implementadas una
+                vez y s&oacute;lo necesitan modificarse una vez si es necesario. La
+                otra ventaja es que el concepto de abstracci&oacute;n de la
+                funcionalidad com&uacute;n est&aacute; soportada
+              </i> </b
+            >.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <h3 id="polimorfismo">Polimorfismo</h3>
+        <div class="contenido-img-polimorfismo">
+          <img
+            src="../images/polimorfismo.jpg"
+            alt="Polimorfismo"
+            width="500"
+            height="250"
+          />
+        </div>
+        <div class="contenido-polimorfismo">
+          <p>
+            <em>
+              Adem&aacute;s de las ventajas de consistencia y reducci&oacute;n de c&oacute;digo, la
+              herencia, aporta tambi&eacute;n otra gran ventaja: facilitar el
+              polimorfismo. Polimorfismo es la propiedad de que un operador o
+              una funci&oacute;n act&uacute;en de modo diferente en funci&oacute;n del objeto sobre
+              el que se aplican. En la pr&aacute;ctica, el polimorfismo significa la
+              capacidad de una operaci&oacute;n de ser interpretada s&oacute;lo por el propio
+              objeto que lo invoca. Desde un punto de vista pr&aacute;ctico de
+              ejecuci&oacute;n del programa, el polimorfismo se realiza en tiempo de
+              ejecuci&oacute;n ya que durante la compilaci&oacute;n no se conoce qu&eacute; tipo de
+              objeto y por consiguiente qu&eacute; operaci&oacute;n ha sido llamada.
+            </em>
+            <br />
+            La propiedad de polimorfismo es aquella en que una operaci&oacute;n tiene
+            el mismo nombre en diferentes clases, pero se ejecuta de diferentes
+            formas en cada clase. As&iacute;, por ejemplo, la operaci&oacute;n de abrir se
+            puede dar en diferentes clases: abrir una puerta, abrir una ventana,
+            abrir un peri&oacute;dico, abrir un archivo, abrir una cuenta corriente en
+            un banco, abrir un libro, etc. En cada caso se ejecuta una operaci&oacute;n
+            diferente, aunque tiene el mismo nombre en todos ellos “abrir”.
+            <em>
+              El polimorfismo es la propiedad de una operaci&oacute;n de ser
+              interpretada s&oacute;lo por el objeto al que pertenece. Existen
+              diferentes formas de implementar el polimorfismo y variar&aacute;
+              dependiendo del lenguaje de programaci&oacute;n </em
+            >.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+      </section>
+</body>
+</html>

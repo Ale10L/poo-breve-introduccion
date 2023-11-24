@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos de la POO</title>
+    <link href="../styles/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <section class="seccion-conceptos-poo">
+        <h2 id="conceptos-poo">Conceptos de la POO</h2>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <div class="contenido-img-conceptos-poo">
+          <img
+            src="../images/ejemplo-clase-objeto.jpg"
+            alt="Ejemplo de clases y objetos"
+            width="500"
+            height="250"
+          />
+          <img
+            src="../images/atributos-metodos.png"
+            alt="Atributos y métodos"
+            width="500"
+            height="250"
+          />
+        </div>
+        <h3><span class="objetos">Objetos</span></h3>
+        <div class="contenido-objetos">
+          <p>
+            El <b>objeto</b> es el centro de la programaci&oacute;n orientada a
+            objetos. Un objeto es algo que se visualiza, se utiliza y juega un
+            rol o papel. Si se programa con enfoque orientado a objetos, se
+            intentan descubrir e implementar los objetos que juegan un rol en el
+            dominio del problema y en consecuencia programa. La estructura
+            interna y el comportamiento de un objeto, en una primera fase, no
+            tiene prioridad.
+          </p>
+
+          <p>
+            Dependiendo el problema, diferentes aspectos de un aspecto son
+            relevantes. Un carro puede ser ensamblado de partes tales como un
+            motor, una carrocer&iacute;a, unas puertas o puede ser descrito utilizando
+            propiedades tales como su velocidad, su kilometraje o su fabricante.
+            Estos atributos indican el objeto. De modo similar, una persona
+            tambi&eacute;n se puede ver como un objeto, del cual se disponen de
+            diferentes atributos. Dependiendo de la definici&oacute;n del problema,
+            esos atributos pueden ser el nombre, apellido, direcci&oacute;n, n&uacute;mero de
+            tel&eacute;fono, color de cabello, altura, peso, profesi&oacute;n, etc.
+          </p>
+          <p>
+            Un objeto no necesariamente ha de realizar algo concreto o tangible.
+            Puede ser totalmente abstracto y tambi&eacute;n puede describir un proceso.
+          </p>
+          <p>
+            Cuando se trata de resolver un problema con orientaci&oacute;n a objetos,
+            dicho problema no se descompone en funciones como en programaci&oacute;n
+            estructurada tradicional, sino en objetos. El pensar en t&eacute;rminos de
+            objetos tiene una gran ventaja: se asocian los objetos del problema
+            a los objetos del mundo real.
+          </p>
+          <p>
+            ¿Qu&eacute; tipos de cosas son objetos en los programas orientados a
+            objetos? La respuesta est&aacute; limitada por su imaginaci&oacute;n, aunque se
+            pueden agrupar en categor&iacute;as t&iacute;picas que facilitar&aacute;n su b&uacute;squeda en
+            la definici&oacute;n del problema de un modo m&aacute;s r&aacute;pido y sencillo.
+          </p>
+        </div>
+        <div class="lista-objetos">
+          <ul class="tipos-objetos">
+            <li>
+              Recursos Humanos:
+              <ul class="tipo-rrhh">
+                <li>Estudiantes.</li>
+                <li>Clientes.</li>
+                <li>Vendedores.</li>
+                <li>Socios.</li>
+              </ul>
+            </li>
+            <li>
+              Colecciones de datos:
+              <ul class="tipo-coleccion">
+                <li>Arrays (arreglos).</li>
+                <li>Listas.</li>
+                <li>Pilas.</li>
+                <li>&Aacute;rboles.</li>
+                <li>&Aacute;rboles binarios.</li>
+                <li>Grafos.</li>
+              </ul>
+            </li>
+            <li>
+              Tipos de datos definidos por usuarios:
+              <ul class="tipo-definido-por-usuario">
+                <li>Hora.</li>
+                <li>N&uacute;meros complejos.</li>
+                <li>Puntos del plano.</li>
+                <li>Puntos del espacio.</li>
+                <li>&Aacute;ngulos.</li>
+                <li>Lados.</li>
+              </ul>
+            </li>
+            <li>
+              Elementos de computadoras:
+              <ul class="tipo-elemento-computadora">
+                <li>Men&uacute;s.</li>
+                <li>Ventanas.</li>
+                <li>
+                  Objetos gr&aacute;ficos (rect&aacute;ngulos, c&iacute;rculos, rectas, puntos...).
+                </li>
+                <li>Rat&oacute;n (mouse).</li>
+                <li>Teclado.</li>
+                <li>Impresora.</li>
+                <li>USB.</li>
+                <li>Tarjetas de memoria de c&aacute;maras fotogr&aacute;ficas.</li>
+              </ul>
+            </li>
+            <li>
+              Objetos f&iacute;sicos:
+              <ul class="list-obj-fisico">
+                <li id="coche">Carros.</li>
+                <li id="avion">Aviones.</li>
+                <li id="tren">Trenes.</li>
+                <li id="barco">Barcos.</li>
+                <li id="moto">Motocicletas.</li>
+                <li id="casa">Casas.</li>
+              </ul>
+            </li>
+            <li>
+              Componentes de videojuegos:
+              <ul class="lista-componente-videojuego">
+                <li>Consola.</li>
+                <li>Mandos.</li>
+                <li>Volante.</li>
+                <li>Conectores.</li>
+                <li>Memoria.</li>
+                <li>Acceso a Internet.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <h3 id="clases">Clases</h3>
+        <div class="contenido-clases">
+          <p>
+            En POO los objetos son miembros de <b>clases</b>. En esencia, una
+            clase es un tipo de datos al igual que cualquier otro tipo de dato
+            definido en un lenguaje de programaci&oacute;n. La diferencia reside en que
+            la clase es un tipo de dato que contiene datos y funciones.
+          </p>
+          <ul class="listado-clase">
+            <li>
+              Una clase contiene muchos objetos y es preciso definirla, aunque
+              su definici&oacute;n no implica creaci&oacute;n de objetos.
+            </li>
+            <li>
+              Una clase es, por consiguiente, una descripci&oacute;n de un n&uacute;mero de
+              objetos similares.
+            </li>
+            <li>
+              Una clase es una descripci&oacute;n general de un conjunto de objetos
+              similares. Por definici&oacute;n todos los objetos de una clase comparten
+              los mismos atributos (datos) y las mismas operaciones (m&eacute;todos).
+            </li>
+            <li>
+              Una clase encapsula las abstracciones de datos y operaciones
+              necesarias para describir una entidad u objeto del mundo real.
+            </li>
+            <li>
+              Una clase se representa en UML mediante un rect&aacute;ngulo que contiene
+              en una banda con el nombre de la clase y opcionalmente otras dos
+              bandas con el nombre de sus atributos y de sus operaciones o
+              m&eacute;todos.
+            </li>
+          </ul>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+        <h3 id="metodos">M&eacute;todos</h3>
+        <div class="contenido-metodos">
+          <p>
+            El <b>m&eacute;todo</b> describe los mecanismos que se encargan de realizar
+            sus tares, y oculta al usuario las tareas complejas que realiza.
+          </p>
+          <p>
+            Declarar valores que no pueden cambiar (es decir, constantes).
+            M&eacute;todos que se llaman a s&iacute; mismos; a esto se le conoce como
+            recursividad.
+          </p>
+          <p>
+            Muchas de las clases tendr&aacute;n m&aacute;s de un m&eacute;todo del mismo nombre. Esta
+            t&eacute;cnica, conocida como sobrecarga de operadores, se utiliza para
+            implementar m&eacute;todos que realizan tareas similares, pero con
+            distintos tipos o distintos n&uacute;meros de argumentos.
+          </p>
+        </div>
+        <div class="volver-indice">
+          <a href="../ghiringhelli-alejandro.html">Volver al &iacute;ndice</a>
+        </div>
+      </section>
+</body>
+</html>
